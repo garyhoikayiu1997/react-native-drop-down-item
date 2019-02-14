@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import {
   TouchableOpacity,
-  Image,
+  // Image,
   Text,
   View,
   StyleSheet,
