@@ -111,11 +111,11 @@ class Item extends Component {
             onLayout={ this.onAnimLayout } style={{display:'flex',flexDirection:'row',justifyContent="center"}}
           >
             { this.props.header }
-            <Image source={
+            {/* <Image source={
               this.state.contentVisible
                 ? this.props.visibleImage
                 : this.props.invisibleImage
-            } style={styles.icons}/>
+            } style={styles.icons}/> */}
           </View>
         </TouchableOpacity>
         <View
