@@ -108,7 +108,7 @@ class Item extends Component {
           onPress={this.onPress}
         >
           <View
-            onLayout={ this.onAnimLayout }
+            onLayout={ this.onAnimLayout } style={{display:'flex',flexDirection:'row',justifyContent="center"}}
           >
             { this.props.header }
             <Image source={
